@@ -1,0 +1,120 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Share+Tech+Mono&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* background: yellow; */
+  /* border: 2px solid red; */
+  /* background-color: #333; */
+  background-color: #003459;
+  color: #fff;
+  opacity: 0.8;
+  width: 100%;
+  height: 70px;
+  top: 0px;
+  padding: 0 30px;
+  position: fixed;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+
+.navbar a:hover {
+  border-bottom: #00a8e8 2px solid;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar .logo {
+  font-weight: 400;
+}
+
+/* Header */
+.hero {
+  /* Very useful properties here */
+  background: url("../images/jimmy-baum-showcase-tikal-guatemala-unsplash.jpg")
+    no-repeat center center/cover;
+  /* smart */
+  height: 100vh;
+  /* position: relative; */
+}
+
+.hero .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  text-align: center;
+  height: 100%;
+}
+
+.hero a {
+  color: #fff;
+}
+
+.hero .content h1 {
+  font-size: 55px;
+}
+
+.hero .content p {
+  font-size: 23px;
+  max-width: 600px;
+}
+
+.content-box {
+  /* border: 2px solid yellow; */
+  padding: 20px 40px;
+  /* https://blog.hubspot.com/website/opacity-css#:~:text=If%20you'd%20like%20to,a%20web%20page%20in%20CSS. */
+  /* opacity: 0.8; */
+  /* background: #003459; */
+  background: rgba(0, 52, 89, 0.75);
+  color: #fff;
+  /* border-radius: 5%; */
+}
