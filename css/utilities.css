@@ -96,6 +96,7 @@
   /* z-index: 5; */
 }
 
-.reading-club-logo {
+.app-logo {
   border-radius: 10%;
+  width: 250px;
 }
