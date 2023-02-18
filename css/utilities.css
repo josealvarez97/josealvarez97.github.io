@@ -50,11 +50,16 @@
 }
 
 /* Flex columns */
+
 .flex-columns .row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+}
+
+.flex-columns.flex-reverse .row {
+  flex-direction: row-reverse;
 }
 
 .flex-columns .column {
