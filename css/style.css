@@ -163,3 +163,23 @@ img {
 .footer .social > * {
   margin-right: 30px;
 }
+
+/* Mobile */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    /* padding: 0; */
+    text-align: center;
+    height: 140px;
+  }
+  .navbar > * {
+    /* border: 2px solid yellow; */
+  }
+
+  .flex-items {
+    flex-direction: column;
+  }
+}
