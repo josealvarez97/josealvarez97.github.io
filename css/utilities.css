@@ -114,6 +114,10 @@
   flex-wrap: wrap;
 }
 
+.collage a {
+  text-decoration: underline;
+}
+
 .collage > div {
   flex: 25%;
 }
