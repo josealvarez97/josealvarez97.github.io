@@ -118,6 +118,12 @@
   flex: 25%;
 }
 
+@media (max-width: 768px) {
+  .collage > div {
+    flex: 100%;
+  }
+}
+
 .collage > div > img {
   object-fit: cover;
   height: 100%;
