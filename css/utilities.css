@@ -179,3 +179,9 @@
 .white-space {
   height: 100px;
 }
+
+@media (max-width: 768px) {
+  .mobile-remove.column {
+    display: none;
+  }
+}
