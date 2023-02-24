@@ -122,7 +122,7 @@
   flex: 25%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   .collage > div {
     flex: 100%;
   }
@@ -184,7 +184,7 @@
   height: 100px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   .mobile-remove.column {
     display: none;
   }
