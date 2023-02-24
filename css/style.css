@@ -161,7 +161,8 @@ img {
 }
 
 .footer .social > * {
-  margin-right: 30px;
+  /* margin-right: 30px; */
+  margin: 0 15px;
 }
 
 /* Mobile */
@@ -184,7 +185,7 @@ img {
   }
 
   .footer {
-    height: 200px;
+    height: 300px;
     padding: 50px;
   }
 }
