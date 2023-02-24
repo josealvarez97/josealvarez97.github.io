@@ -182,4 +182,9 @@ img {
   .flex-items {
     flex-direction: column;
   }
+
+  .footer {
+    height: 200px;
+    padding: 50px;
+  }
 }
